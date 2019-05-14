@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rist</string>
+    <string name="restaurant_input">Enter a restaurant name</string>
+    <string name="add_restaurant">Add</string>
 </resources>
