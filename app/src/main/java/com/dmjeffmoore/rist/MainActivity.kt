@@ -7,7 +7,17 @@ import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.ListView
 
-
+/* TODO
+    1. change text to placeholder
+    2. add ability to remove restaurants
+    3. persist restaurants
+    4. add ability to cross off restaurants
+    5. add ability to rate restaurants
+    6. get phone location then add ability to fetch from Google Maps and auto add address and Google rating
+    7. add ability to add metadata such as type of food, price, Google rating etc.
+    8. add ability to share with other Rist users (export and import)
+    9. add ability to sort list by city/area
+ */
 class MainActivity : AppCompatActivity() {
     var restaurantList = ArrayList<String>()
 
