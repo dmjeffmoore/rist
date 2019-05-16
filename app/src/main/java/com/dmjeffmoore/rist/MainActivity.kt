@@ -24,5 +24,10 @@ class MainActivity : AppCompatActivity() {
         val restaurantText = findViewById<EditText>(R.id.restaurant_input)
         val restaurant = restaurantText.text.toString()
         restaurantList.add(restaurant)
+
+        val listView = findViewById<ListView>(R.id.rest_list)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, restaurantList)
+        listView.adapter = adapter
+        adapter.notifyDataSetChanged()
     }
 }
