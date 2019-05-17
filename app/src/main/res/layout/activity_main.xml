@@ -11,7 +11,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:inputType="textPersonName"
-            android:text="@string/restaurant_input"
+            android:hint="@string/restaurant_input"
             android:ems="10"
             android:id="@+id/restaurant_input"
             app:layout_constraintEnd_toStartOf="@+id/add_restaurants_button"

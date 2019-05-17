@@ -8,7 +8,6 @@ import android.widget.EditText
 import android.widget.ListView
 
 /* TODO
-    1. change text to placeholder
     2. add ability to remove restaurants
     3. persist restaurants
     4. add ability to cross off restaurants
@@ -34,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         val restaurantText = findViewById<EditText>(R.id.restaurant_input)
         val restaurant = restaurantText.text.toString()
         restaurantList.add(restaurant)
+        restaurantText.setText("")
 
         val listView = findViewById<ListView>(R.id.rest_list)
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, restaurantList)
